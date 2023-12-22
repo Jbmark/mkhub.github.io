@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Section</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <style>
+        body {
+            background-color: black; /* Dark background color */
+            color: white; /* Text color */
+            margin: 0;
+            padding: 0;
+        }
+        .card-img-top {
+        width: 100%;
+        height: 250px; /* Adjust the height as needed */
+        object-fit: cover;
+     }
+     .card {
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            color: black;
+        }
+     .logo {
+    width: 100px;
+    cursor: pointer;
+    height: auto; /* Maintain aspect ratio */
+        /* Or specify height as well if needed */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img src="logoo.jpg" alt="logo" class="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sections
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#featured">Featured</a>
+                            <a class="dropdown-item" href="#artists">Artists</a>
+                            <a class="dropdown-item" href="#genres">Genres</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <main class="container mt-4">
+        <!-- Home Section -->
+        <section id="home">
+        <div class="w3-container w3-padding-32 w3-margin">
+            <div class="w3-center w3-wide w3-border"><h1>Welcome to MK Music</h1>
+            <p>Discover and enjoy the latest music trends, artists, and genres.</p>
+            </div>
+        </div>
+
+        <!-- Featured Music Section -->
+            <div class="w3-container w3-padding-32">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="featured">Featured Music</h3>
+          </div>
+        <section id="featured">
+            <div class="row">
+                <!-- Featured Music 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="mariah.jpg" class="card-img-top" alt="Featured Music 1">
+                        <div class="card-body">
+                            <h5 class="card-title">All I Want for Christmas Is You</h5>
+                            <p class="card-text">Mariah Carey</p>
+                            <a href="https://www.youtube.com/watch?v=aAkMkVFwAoo" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Music 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="miley.jpg" class="card-img-top" alt="Featured Music 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Flowers</h5>
+                            <p class="card-text">Miley Cyrus</p>
+                            <a href="https://www.youtube.com/watch?v=G7KNmW9a75Y" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Music 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="newjeans.jpg" class="card-img-top" alt="Featured Music 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Shy</h5>
+                            <p class="card-text">Newjeans</p>
+                            <a href="https://www.youtube.com/watch?v=ArmDp-zijuc" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="taylorr.jpg" class="card-img-top" alt="Featured Music 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Cruel Summer</h5>
+                            <p class="card-text">Taylor Swift</p>
+                            <a href="https://www.youtube.com/watch?v=ic8j13piAhQ" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="olivia.webp" class="card-img-top" alt="Featured Music 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Vampire</h5>
+                            <p class="card-text">Olivia Rodrigo</p>
+                            <a href="https://www.youtube.com/watch?v=RlPNh_PBZb4" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Featured Music 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="tate.png" class="card-img-top" alt="Featured Music 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Greedy</h5>
+                            <p class="card-text">Tate McRae</p>
+                            <a href="https://www.youtube.com/watch?v=To4SWGZkEPk" target="_blank" class="btn btn-primary">Listen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <!-- Artists Section -->
+        <div class="w3-container w3-padding-32">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="artists">Artists</h3>
+          </div>
+        <section id="artists">
+            <div class="row">
+                <!-- Artist 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="Taylor.jpg" class="card-img-top" alt="Artist 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Taylor Swift</h5>
+                            <p class="card-text">Genre: Pop</p>
+                            <a href="https://en.wikipedia.org/wiki/Taylor_Swift" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artist 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="ariana.jpg" class="card-img-top" alt="Artist 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ariana Grande</h5>
+                            <p class="card-text">Genre: Pop</p>
+                            <a href="https://en.wikipedia.org/wiki/Ariana_Grande" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artist 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="ed.jpg" class="card-img-top" alt="Artist 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ed Sheeran</h5>
+                            <p class="card-text">Genre: Pop</p>
+                            <a href="https://en.wikipedia.org/wiki/Ed_Sheeran" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="bruno.jpg" class="card-img-top" alt="Artist 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Bruno Mars</h5>
+                            <p class="card-text">Genre: Pop</p>
+                            <a href="https://en.wikipedia.org/wiki/Bruno_Mars" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="bp.jpg" class="card-img-top" alt="Artist 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Blackpink</h5>
+                            <p class="card-text">Genre: Kpop</p>
+                            <a href="https://en.wikipedia.org/wiki/Blackpink" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Artist 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="bts.jpg" class="card-img-top" alt="Artist 6">
+                        <div class="card-body">
+                            <h5 class="card-title">BTS</h5>
+                            <p class="card-text">Genre: Kpop</p>
+                            <a href="https://en.wikipedia.org/wiki/BTS" target="_blank" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<br>
+        <!-- Genres Section -->
+        <div class="w3-container w3-padding-32">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="genres">Genres</h3>
+          </div>
+        <section id="genres">
+            <div class="row">
+                <!-- Genre 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pop</h5>
+                            <p class="card-text">Explore popular pop songs and artists.</p>
+                            <a href="https://www.youtube.com/watch?v=rYEDA3JcQqw&list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Genre 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock</h5>
+                            <p class="card-text">Discover the best rock hits and bands.</p>
+                            <a href="https://www.youtube.com/watch?v=8SbUC-UaAxE&list=PLyORnIW1xT6wFALM5dZlkFhOULbToFok3&index=2" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Genre 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jazz</h5>
+                            <p class="card-text">Dive into the world of jazz music.</p>
+                            <a href="https://www.youtube.com/watch?v=ZZcuSBouhVA&list=PL8F6B0753B2CCA128" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hip Hop</h5>
+                            <p class="card-text">Explore trending hip hop music.</p>
+                            <a href="https://www.youtube.com/watch?v=Z4N8lzKNfy4&list=PL950974742C0D24CC" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Electronic</h5>
+                            <p class="card-text">Explore electronic music vibes.</p>
+                            <a href="https://www.youtube.com/watch?v=IcrbM1l_BoI&list=PLPqHbpPVyy5dQmoAdC_8taXMkbJTPT1AS" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Genre 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Indie</h5>
+                            <p class="card-text">Discover the world of indie music.</p>
+                            <a href="https://www.youtube.com/watch?v=TO27AO2XKNY&list=PLy6jsQ8zg2pvXfMVyRz2LGth_9mpVBJYL" target="_blank" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <div class="container mt-4" id="about">
+        <h1 class="w3-border-bottom">About MK Music</h1>
+        <p>Welcome to MK Music, where melodies find their soul and rhythms create magic! Our passion for music drives us to share the best tunes, introduce budding artists, and explore diverse genres.</p>
+        <p>At MK Music, we believe in the power of music to evoke emotions, bring people together, and inspire creativity.</p>
+        <!-- You can add more content to describe your journey, values, or any special features of MK Music -->
+      </div><br>
+      <div class="container mt-4" id="contact">
+        <h1 class="w3-border-bottom">Contact MK Music</h1>
+        <p>Got questions, suggestions, or want to collaborate? Reach out to us!</p>
+        <ul>
+            <li>Email: markhermie02@gmail.com</li>
+            <li>Phone: 09317568129</li>
+            <li>Address: CSU,Ampayon,Butuan City</li>
+        </ul>
+        <!-- You can add a contact form or any additional contact details -->
+      </div>
+      <div class="w3-hide-small">    
+        <a href="#home" class="w3-button"><b>Back to Top</b></a>
+       </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 text-center">
+        <div class="container">
+            <p>&copy; 2023 MusicHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle with Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom script can go here -->
+    <script>
+        // Your custom JavaScript logic can go here
+    </script>
+</body>
+</html>

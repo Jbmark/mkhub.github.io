@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TV Shows Section</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #1f1f1f; /* Dark background color */
+            color: #fff; /* Text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .movie-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover .video-image {
+    transform: scale(1.05);
+}
+         .container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    .about-section {
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+    .about-section h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .about-section p {
+      font-size: 18px;
+    }
+    .logo {
+    width: 100px;
+    cursor: pointer;
+    height: auto; /* Maintain aspect ratio */
+        /* Or specify height as well if needed */
+        }
+    </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home">
+    <div class="container">
+      <img src="logoo.jpg" alt="logo" class="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Genres
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#action">Action&Adventure</a>
+                      <a class="dropdown-item" href="#animation">Animation</a>
+                      <a class="dropdown-item" href="#comedy">Comedy</a>
+                      <a class="dropdown-item" href="#horror">Horror</a>
+                      <a class="dropdown-item" href="#drama">Drama</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="w3-container w3-padding-32 w3-margin">
+  <div class="w3-center w3-wide w3-border"><h1>Welcome to MK Shows</h1>
+  <p>Where Television Entertainment Knows No Bounds.</p>
+  </div>
+</div>
+        <div class="w3-container w3-padding-32" id="tvshows">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="action">Action&Adventure</h3>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Monarch: Legacy of Monsters</div>
+                <a href="https://movieshd.watch/tv/watch-monarch-legacy-of-monsters-online-102826" target="_blank">
+                  <img id="videoImage" src="ml.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Sweet Home</div>
+                <a href="https://movieshd.watch/tv/watch-sweet-home-online-66340" target="_blank">
+                  <img id="videoImage" src="sweet.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Continental: From the World of John Wick</div>
+                <a href="https://movieshd.watch/tv/watch-the-continental-online-42270" target="_blank">
+                  <img id="videoImage" src="tc.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Gen V</div>
+                <a href="https://movieshd.watch/tv/watch-gen-v-online-100792" target="_blank">
+                  <img id="videoImage" src="genv.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Jack Ryan</div>
+                <a href="https://movieshd.watch/tv/watch-tom-clancys-jack-ryan-online-38913" target="_blank">
+                  <img id="videoImage" src="jack.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Strong Girl Nam-soon</div>
+                <a href="https://movieshd.watch/tv/watch-strong-girl-nam-soon-online-101221" target="_blank">
+                  <img id="videoImage" src="strong.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Black Knight</div>
+                <a href="https://movieshd.watch/tv/watch-black-knight-online-96634" target="_blank">
+                  <img id="videoImage" src="bk.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Lord of the Rings: The Rings of Power</div>
+                <a href="https://movieshd.watch/tv/watch-the-lord-of-the-rings-the-rings-of-power-online-87087" target="_blank">
+                  <img id="videoImage" src="tlotr.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+       
+          <div class="w3-container w3-padding-32" id="tvshows">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="animation">Animation</h3>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Scott Pilgrim Takes Off</div>
+                <a href="https://movieshd.watch/tv/watch-scott-pilgrim-takes-off-online-102898" target="_blank">
+                  <img id="videoImage" src="scott.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Trese</div>
+                <a href="https://movieshd.watch/tv/watch-trese-online-70235" target="_blank">
+                  <img id="videoImage" src="trese.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Blue Eye Samurai</div>
+                <a href="https://movieshd.watch/tv/watch-blue-eye-samurai-online-102328" target="_blank">
+                  <img id="videoImage" src="blue.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Castlevania: Nocturne</div>
+                <a href="https://movieshd.watch/tv/watch-castlevania-nocturne-online-100768" target="_blank">
+                  <img id="videoImage" src="castle.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Loud House</div>
+                <a href="https://movieshd.watch/tv/watch-the-loud-house-online-36967" target="_blank"><img id="videoImage" src="tlh.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Invincible</div>
+                <a href="https://movieshd.watch/tv/watch-invincible-online-68886" target="_blank"><img id="videoImage" src="invi.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Paw Patrol</div>
+                <a href="https://movieshd.watch/tv/watch-paw-patrol-online-39301" target="_blank"><img id="videoImage" src="pawt.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Arcane</div>
+                <a href="https://movieshd.watch/tv/watch-arcane-online-73990" target="_blank"><img id="videoImage" src="arca.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w3-container w3-padding-32" id="tvshows">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="comedy">Comedy</h3>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Santa Clauses</div>
+                <a href="https://movieshd.watch/tv/watch-the-santa-clauses-online-90259" target="_blank"><img id="videoImage" src="tsc.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Brooklyn Nine-Nine</div>
+                <a href="https://movieshd.watch/tv/watch-brooklyn-ninenine-online-39530" target="_blank"><img id="videoImage" src="brook.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Office</div>
+                <a href="https://movieshd.watch/tv/watch-the-office-online-39383" target="_blank"><img id="videoImage" src="to.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">The Big Bang Theory</div>
+                <a href="https://movieshd.watch/tv/watch-the-big-bang-theory-online-39508" target="_blank"><img id="videoImage" src="tbb.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Friends</div>
+                <a href="https://movieshd.watch/tv/watch-friends-online-39473" target="_blank"><img id="videoImage" src="friends.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Sex Education</div>
+                <a href="https://movieshd.watch/tv/watch-sex-education-online-39515" target="_blank"><img id="videoImage" src="sex.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Rick and Morty</div>
+                <a href="https://movieshd.watch/tv/watch-rick-and-morty-online-39480" target="_blank"><img id="videoImage" src="rick.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Family Guy</div>
+                <a href="https://movieshd.watch/tv/watch-family-guy-online-39549" target="_blank"><img id="videoImage" src="tfg.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w3-container w3-padding-32" id="tvshows">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="horror">Horror</h3>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Gyeongsang Creature</div>
+                <a href="https://www.youtube.com/watch?v=If8JwZZA-Ys" target="_blank">
+                  <img id="videoImage" src="gc.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Trese</div>
+                <a href="https://movieshd.watch/tv/watch-trese-online-70235" target="_blank">
+                  <img id="videoImage" src="trese.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Castlevania: Nocturne</div>
+                <a href="https://movieshd.watch/tv/watch-castlevania-nocturne-online-100768" target="_blank">
+                  <img id="videoImage" src="castle.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Sweet Home</div>
+                <a href="https://movieshd.watch/tv/watch-sweet-home-online-66340" target="_blank"><img id="videoImage" src="sweet.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Wednesday</div>
+                <a href="https://movieshd.watch/tv/watch-wednesday-online-90553" target="_blank"><img id="videoImage" src="wednesday.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Resident Evil</div>
+                <a href="https://movieshd.watch/tv/watch-resident-evil-online-84479" target="_blank"><img id="videoImage" src="resident.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">All of Us Are Dead</div>
+                <a href="https://movieshd.watch/tv/watch-all-of-us-are-dead-online-76681" target="_blank"><img id="videoImage" src="all.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Kingdom</div>
+                <a href="https://movieshd.watch/tv/watch-kingdom-online-43122" target="_blank"><img id="videoImage" src="king.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="w3-container w3-padding-32" id="tvshows">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="drama">Drama</h3>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">My Demon</div>
+                <a href="https://movieshd.watch/tv/watch-my-demon-online-103150" target="_blank">
+                  <img id="videoImage" src="myd.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Death's Game</div>
+                <a href="https://movieshd.watch/tv/watch-deaths-game-online-103954" target="_blank">
+                  <img id="videoImage" src="dg.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Castaway Diva</div>
+                <a href="https://movieshd.watch/tv/watch-castaway-diva-online-102028" target="_blank">
+                  <img id="videoImage" src="cd.jpg" alt="House" style="width:100%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">XO Kitty</div>
+                <a href="https://movieshd.watch/tv/watch-xo-kitty-online-96874" target="_blank">
+                  <img id="videoImage" src="xo.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">A Time Called You</div>
+                <a href="https://movieshd.watch/tv/watch-a-time-called-you-online-100060" target="_blank">
+                  <img id="videoImage" src="at.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Strong Girl Nam-soon</div>
+                <a href="https://movieshd.watch/tv/watch-strong-girl-nam-soon-online-101221" target="_blank">
+                  <img id="videoImage" src="strong.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">See You in My 19th Life</div>
+                <a href="https://movieshd.watch/tv/watch-see-you-in-my-19th-life-online-97612" target="_blank"><img id="videoImage" src="see.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="movie-card">
+                <div class="w3-display-topleft w3-black w3-padding">Daily Dose of Sunshine</div>
+                <a href="https://movieshd.watch/tv/watch-daily-dose-of-sunshine-online-102334" target="_blank"><img id="videoImage" src="daily.jpg" alt="House" style="width:99%"></a>
+              </div>
+            </div>
+          </div>
+          <style>
+            #videoImage {
+              width: 100%;
+              transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+            }
+        
+            #videoImage:hover {
+              transform: scale(1.2); /* Increase the scale factor for zoom effect */
+            }
+        
+            /* Additional styles for the black overlay and padding */
+            .w3-display-topleft {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-color: black;
+              color: white;
+              padding: 10px;
+              z-index: 1; /* Ensure the overlay is on top of the image */
+            }
+        </style>
+         <!-- Link Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<br>
+<br>
+<br>
+<section class="container about-section" id="about">
+  <h1 class="w3-border-bottom">Welcome to MK Shows!</h1>
+      <p>
+        At MK Shows, we're passionate about entertainment and dedicated to bringing you the latest and greatest in television series. Our platform is designed to be your go-to destination for discovering, exploring, and staying updated on the most compelling TV shows across genres.
+      </p>
+      <p>
+        We understand the thrill of finding a new series to binge-watch or the excitement of discussing the latest plot twists with fellow enthusiasts. That's why we strive to curate a diverse selection of top-notch TV content, catering to various tastes and preferences.
+      </p>
+      <p>
+        Whether you're a fan of gripping dramas, hilarious comedies, thrilling mysteries, or captivating documentaries, MK TV-Shows has something for everyone. Our team scours through the vast array of TV programming to handpick recommendations, reviews, and insights, ensuring you're always in the know about what's hot and worth watching.
+      </p>
+</section>
+    <section class="container contact-section" id="contact">
+      <h1 class="w3-border-bottom">Contact Us</h1>
+      <p>
+        Feel free to get in touch with us for any inquiries, suggestions, or collaborations!
+      </p>
+      <ul class="contact-info">
+        <li>Email: markhermie02@gmail.com</li>
+        <li>Phone: 09317568129</li>
+        <li>Address: CSU,Ampayon,Butuan City</li>
+      </ul>
+      <!-- You can add a contact form or more contact details as needed -->
+    </section>
+    <!-- Add other sections, footer, or navigation links here -->
+  </div>
+        <br>
+        <br>
+         <div class="w3-hide-small">    
+         <a href="#home" class="w3-button"><b>Back to Top</b></a>
+        </div>
+        <footer class="w3-center w3-black w3-padding-16">
+          <p>&copy;2023 <b>MK Hub. </b><u>All Rights Reserve.</u></p>
+          </footer>
+    </body>
+</html>
